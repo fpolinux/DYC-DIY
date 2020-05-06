@@ -10,10 +10,10 @@ body {
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 16rem;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14rem 16rem;
   text-decoration: none;
 }
 
@@ -23,11 +23,11 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16rem;  
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 14rem 16rem;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -42,15 +42,15 @@ body {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 160rem;
+  box-shadow: 0rem 8rem 16rem 0rem rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .menu a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 12rem 16rem;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -62,5 +62,9 @@ body {
 
 .dropdown:hover .menu {
   display: block;
+}
+
+#title a:hover{
+	background-color: ;
 }
 </style>
